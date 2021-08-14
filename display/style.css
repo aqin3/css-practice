@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:'Tahoma';
+}
+
+body {
+    background: #eee;
+}
+
+h1, h2, h4 {
+    margin: 8px;
+}
+
+.flex-concept {
+    width: 256px;
+    height: 128px;
+    background: #ccc;
+    display: flex;
+    border: 2px solid #333;
+}
+
+.flex-concept-item {
+    background: #fff;
+    border-radius: 8px;
+}
+
+.main-arrow-container {
+    height: 0;
+}
+
+.main-arrow {
+    position: relative;
+    top: -74px;
+    left: 8px;
+}
+
+.main-arrow-text {
+    position: relative;
+    top: -107px;
+    left: 272px;
+}
+
+.cross-arrow-container {
+    height: 32px;
+}
+
+.cross-arrow {
+    position: relative;
+    top: -128px;
+    left: 101px;
+}
+
+.cross-arrow-text {
+    position: relative;
+    top: -156px;
+    left: 115px;
+}
+
+.container {
+    background: #ccc;
+    border: 2px solid #333;
+    padding: 8px;
+}
+
+.block {
+    background: #faa;
+    display: block;
+}
+
+.inline {
+    background: #afa;
+    display: inline;
+}
+
+.inline-block {
+    background: #aaf;
+    display: inline-block;
+}
+
+.before-button {
+    display: inline;
+}
+
+.flex-button {
+    width: 20px;
+    background: #ccc;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.flex-button:hover {
+    cursor: pointer;
+}
+
+.flex-direction-container {
+    height: 312px;
+    margin-bottom: 8px;
+}
+
+.flex-wrap-container {
+    height: 376px;
+    margin-bottom: 8px;
+}
+
+.flex-container {
+    background: #ccc;
+    display: flex;
+    border: 2px solid #333;
+    margin-left: 8px;
+    max-width: 512px;
+}
+
+.flex-item {
+    min-width: 80px;
+    border: 2px solid #333;
+    margin: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.item-1 {
+    min-width: 80px;
+    min-height: 50px;
+}
+
+.item-2 {
+    min-width: 130px;
+    min-height: 80px;
+}
+
+.item-3 {
+    min-width: 210px;
+    min-height: 130px;
+}
+
+.item-4 {
+    min-width: 50px;
+    min-height: 80px;
+}
+
+.item-5 {
+    min-width: 80px;
+    min-height: 130px;
+}
+
+.item-6 {
+    min-width: 130px;
+    min-height: 210px;
+}
+
+.item-red {
+    background-color: #faa;
+}
+
+.item-orange {
+    background-color: #fca;
+}
+
+.item-yellow {
+    background-color: #ffa;
+}
+
+.item-green {
+    background-color: #afa;
+}
+
+.item-blue {
+    background-color: #acf;
+}
+
+.item-purple {
+    background-color: #aaf;
+}
+
+.footer {
+    background: #ccc;
+    border-top: 2px solid #333;
+    padding: 8px;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}

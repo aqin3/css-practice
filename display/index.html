@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">Display</h1>
+    <!-- <h2 class="header">Block, Inline and Inline-block</h2>
+    <div class="container">
+        <div class="block">block</div>
+        <div class="inline">inline</div>
+        <div class="inline-block">inline-block</div>
+    </div> -->
+    <h2 class="header">Flex</h2>
+    <h4 class="header">Concept</h4>
+    <div class="concept-container">
+        <div class="flex-container flex-concept">
+            <div class="flex-item flex-concept-item">item 1</div>
+            <div class="flex-item flex-concept-item">item 2</div>
+        </div>
+        <div class="main-arrow-container">
+            <svg width="320" height="10" class="main-arrow">
+                <rect y="3" width="305" height="4" />
+                <polygon points="304,0 304,10 320,5" />
+            </svg>
+            <div class="main-arrow-text">Main Axis</div>
+        </div>
+        <div class="cross-arrow-container">
+            <svg width="10" height="160" class="cross-arrow">
+                <rect x="3" width="4" height="145" />
+                <polygon points="0,144 10,144 5,160" />
+            </svg>
+            <div class="cross-arrow-text">Cross Axis</div>
+        </div>
+    </div>
+    <h2 class="header">Flex Container Property</h2>
+    <h4 class="before-button">flex-direction</h4>
+    <button class="flex-button" id="flex-direction-button">
+        <svg width="8" height="8">
+            <polygon points="0,0 0,8 8,4" />
+        </svg>
+    </button>
+    <h4 id="flex-direction-text">row</h4>
+    <div class="flex-direction-container">
+        <div class="flex-container" id="flex-direction">
+            <div class="flex-item item-1 item-red">item 1</div>
+            <div class="flex-item item-2 item-green">item 2</div>
+            <div class="flex-item item-3 item-blue">item 3</div>
+        </div>
+    </div>
+    <h4 class="before-button">flex-wrap</h4>
+    <button class="flex-button" id="flex-wrap-button">
+        <svg width="8" height="8">
+            <polygon points="0,0 0,8 8,4" />
+        </svg>
+    </button>
+    <h4 id="flex-wrap-text">nowrap</h4>
+    <div class="flex-wrap-container">
+        <div class="flex-container" id="flex-wrap">
+            <div class="flex-item item-1 item-red">item 1</div>
+            <div class="flex-item item-2 item-orange">item 2</div>
+            <div class="flex-item item-3 item-yellow">item 3</div>
+            <div class="flex-item item-4 item-green">item 4</div>
+            <div class="flex-item item-5 item-blue">item 5</div>
+            <div class="flex-item item-6 item-purple">item 6</div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://github.com/aqin3/css-practice">github</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
